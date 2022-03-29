@@ -23,6 +23,8 @@ function save(){
     let countString = count = "-"
     //Render the variable in the saveEl using innerText
     saveEl.textContent += countString
+    countEl.textContent=0
+    count = 0
 
     console.log(count)
 }
