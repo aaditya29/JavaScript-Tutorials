@@ -1,10 +1,7 @@
 // document.getElementById("count-el").innerText = 5
-
-let count=0
-
-let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")//Grabbing the save-el paragrah and storing it in a variable called saveEl
-
+let countEl = document.getElementById("count-el")
+let count=0
 console.log(saveEl)
 
 
@@ -12,15 +9,14 @@ console.log(saveEl)
 Here the element 'count-el' matches the specified string in the index.html.
 */
 
-function increment(){
+function increment() {
     count += 1
-    countEl.innerText = count
-    console.log(count)
+    countEl.textContent = count
 }
 
 function save(){
     //Create a variable that contains both the count and the dash separator, i.e. "12 - "
-    let countString = count = "-"
+    let countString = count + "-"
     //Render the variable in the saveEl using innerText
     saveEl.textContent += countString
     countEl.textContent=0
@@ -29,3 +25,4 @@ function save(){
     console.log(count)
 }
 
+console.log("Hey! Here are the people passing through the subway:")
