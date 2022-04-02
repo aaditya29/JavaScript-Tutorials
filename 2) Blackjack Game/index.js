@@ -1,3 +1,8 @@
+let player = {
+    Name: "Aaditya",
+    Chips: 145
+}
+
 let cards = []//array
 let sum = 0
 let hasBlackJack = false
@@ -7,15 +12,8 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-let player = {
-    Name: "Aaditya",
-    Chips: 145
-}
-
 let playerEl = document.getElementById("player-el")
 playerEl.textContent = player.Name + ": $" + player.Chips
-
-console.log(cards)
 
 function getRandomCard() {
     let randomNumer =  Math.floor(Math.random()*13) + 1
