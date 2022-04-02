@@ -6,6 +6,7 @@ let featuredPosts = [
     "I've just relaunched my portfolio"
 ]
 console.log(featuredPosts[1])
+console.log(featuredPosts.length)
 
 let experience = ["CEO at Work", "Frontend developer at I dO Nothing Papa ki pari", "People counter for works at i am studying"]
 
