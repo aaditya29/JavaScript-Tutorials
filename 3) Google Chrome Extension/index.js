@@ -11,5 +11,5 @@ event: It is a required parameter. It can be defined as a string that specifies 
 function: It is also a required parameter. It is a JavaScript function which responds to the event occur.
 */
 inputBtn.addEventListener("click", function(){
-    console.log("Button Clicked from addEventListener()")
+    console.log("Button Clicked")
 })
