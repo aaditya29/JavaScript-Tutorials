@@ -20,5 +20,5 @@ inputBtn.addEventListener("click", function(){
 
 //Loggint out the lead values
 for(let i=0; i<myLeads.length; i++){
-    ulEl.textContent += myLeads[i] + " "
+    ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"//innerHTML property sets or returns the HTML content of an element.
 }
