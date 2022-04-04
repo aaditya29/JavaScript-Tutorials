@@ -1,6 +1,8 @@
-let myLeads = []
+let myLeads = ["www.lead.com", "www.awesomelead.com", "www.leadcontent.com"]
 const inputEl = document.createElement('input-el')
 const inputBtn = document.getElementById("input-btn")
+
+const ulEl = document.getElementById("ul-el")
 /*
 The addEventListener() method is used to attach an event handler to a particular element. It does not override the existing event handlers. Events are said to be an essential part of the JavaScript. A web page responds according to the event that occurred.
 
@@ -12,6 +14,11 @@ event: It is a required parameter. It can be defined as a string that specifies 
 function: It is also a required parameter. It is a JavaScript function which responds to the event occur.
 */
 inputBtn.addEventListener("click", function(){
-    myLeads.push("www.yourleads.com")
+    myLeads.push(inputEl.value)//Pushing the value from myLeads array to inputEl
     console.log(myLeads)
 })
+
+//Loggint out the lead values
+for(let i=0; i<myLeads.length; i++){
+    ulEl.textContent += myLeads[i] + " "
+}
