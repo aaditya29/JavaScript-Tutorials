@@ -14,7 +14,7 @@ function: It is also a required parameter. It is a JavaScript function which res
 */
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
-    
+    inputEl.value = ""//To clear out the inpit field by assigning it to an empty string
     renderLeads()
 })
 
@@ -24,7 +24,7 @@ function renderLeads(){
     let listItems = " "
     //Logging out the lead values
     for(let i=0; i<myLeads.length; i++){
-        listItems += "<li>" + myLeads[i] + "</li>"//innerHTML property sets or returns the HTML content of an element.
+        listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"//innerHTML property sets or returns the HTML content of an element.
     }
     ulEl.innerHTML = listItems
 }
