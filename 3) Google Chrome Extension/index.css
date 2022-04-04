@@ -7,7 +7,6 @@ body {
 input {
     width: 100%;
     padding: 10px;
-    /* Box sizing used so that the input box doesn't get too big*/
     box-sizing: border-box;
     border: 1px solid #5f9341;
     margin-bottom: 4px;
@@ -19,4 +18,18 @@ button {
     padding: 10px 20px;
     border: none;
     font-weight: bold;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #5f9341;
 }
