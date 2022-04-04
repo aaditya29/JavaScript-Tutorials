@@ -2,6 +2,12 @@ let myLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
+
+localStorage.clear()
+//Getting the leads from the localStorage using json.parse and storing it in a variable
+let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))//JSON.parse() method parses a JSON string, constructing the JavaScript value or object described by the string.
+
+
 /*
 The addEventListener() method is used to attach an event handler to a particular element. It does not override the existing event handlers. Events are said to be an essential part of the JavaScript. A web page responds according to the event that occurred.
 
@@ -15,6 +21,9 @@ function: It is also a required parameter. It is a JavaScript function which res
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""//To clear out the inpit field by assigning it to an empty string
+    //Saving the myLeads array to the localStorage
+    localStorage.setItem("myLeads",JSON.stringify(myLeads))//localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date
+
     renderLeads()
 })
 
