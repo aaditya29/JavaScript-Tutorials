@@ -14,11 +14,11 @@ medium etc.
 
 ## Table Of Contents
 
-- _[Passenger Counter Application](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Basics%20Practice)_
+- _[Passenger Counter Application](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/1.%20Passenger%20Counter%20Application)_
 
-- _[Blackjack Game](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Projects)_
+- _[Blackjack Game](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/2.%20Blackjack%20Game)_
 
-* _[Google Chrome Extension](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Basics%20Practice)_
+* _[Google Chrome Extension](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/3.%20Google%20Chrome%20Extension)_
 
-* _[Assignments of Freecodecamp](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Projects)_
+* _[Assignments of Freecodecamp](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/Assignments)_
   </br>
