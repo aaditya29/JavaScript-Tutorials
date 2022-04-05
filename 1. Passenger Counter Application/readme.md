@@ -2,10 +2,12 @@
 
 Can be used as counter for number of people enter at a place or shop or store within an interval of time.
 
+![Getting Started](./PassengerCounter.png)
+
 ## Motivation
 
 > Learning basic JavaScript through projects.
 
-## Table Of Contents
+### Concepts Learned In The Project
 
-![Getting Started](./PassengerCounter.png)
+- Script Tag
