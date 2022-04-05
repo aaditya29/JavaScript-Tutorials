@@ -14,6 +14,11 @@ medium etc.
 
 ## Table Of Contents
 
-- _[HTML And CSS Basic Practice](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Basics%20Practice)_
-- _[HTML And CSS Projects](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Projects)_
+- _[Passenger Counter Application](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Basics%20Practice)_
+
+- _[Blackjack Game](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Projects)_
+
+* _[Google Chrome Extension](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Basics%20Practice)_
+
+* _[Assignments of Freecodecamp](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Projects)_
   </br>
