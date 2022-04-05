@@ -14,7 +14,6 @@ medium etc.
 
 ## Table Of Contents
 
-- _[Passenger Counter Application](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/1)%20Passenger%20Counter%20Application)_
-- _[BlackJack Game](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/2)%20Blackjack%20Game)_
-
-</br>
+- _[HTML And CSS Basic Practice](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Basics%20Practice)_
+- _[HTML And CSS Projects](https://github.com/aaditya29/HTML-And-CSS-Portfolio/tree/master/HTML%20And%20CSS%20Projects)_
+  </br>
