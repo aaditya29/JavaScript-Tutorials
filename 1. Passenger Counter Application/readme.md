@@ -5,6 +5,7 @@ Can be used as counter for number of people enter at a place or shop or store wi
 ## Motivation
 
 > Learning basic JavaScript through projects.
-> ![](2022-04-05-17-06-27.png)
 
 ## Table Of Contents
+
+![](2022-04-05-17-07-57.png)
