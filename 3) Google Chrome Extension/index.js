@@ -3,9 +3,15 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
-localStorage.clear()
 //Getting the leads from the localStorage using json.parse and storing it in a variable
 let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))//JSON.parse() method parses a JSON string, constructing the JavaScript value or object described by the string.
+
+// Checking if the leads from the localStorage are truthy
+// if yes then set myLeads to its value and then call the renderLeads
+if (leadsFromLocalStorage){
+    myLeads = leadsFromLocalStorage
+    renderLeads()
+}
 
 
 /*
