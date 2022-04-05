@@ -16,12 +16,16 @@ if (leadsFromLocalStorage){
     render(myLeads)
 }
 
-const tabs = [
-    {url: "https://www.linkedin.com/in/per-harald-borgen/"}
-]
-
 tabBtn.addEventListener("click", function() {
-    console.log(tabs[0].url)//Logging out linkedin URL on the console
+    //Grabbing the URL of the current tab
+
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {//calling query method from the chrome tab
+                        //active: true specifies the active tab query and currentWindow which is active in case multiple windows are active and passing tabs variable
+        myLeads.push(tabs[0].url)
+        localStorage.setItem("myLeads",JSON.stringify(myLeads))
+        render(myLeads)
+   })
+    
 })
 function render(leads){
     //Creating a variable, listItems, to hold all the HTML for the list items and assign it to an empty string to begin with
