@@ -6,7 +6,7 @@ Can be used as counter for number of people enter at a place or shop or store wi
 
 ## Motivation
 
-> Learning basic JavaScript through projects.
+> Learning JavaScript through projects.
 
 ### Concepts Learned In The Project
 
