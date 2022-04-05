@@ -3,8 +3,11 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
+// Storing the delete button in deleteBtn vairable
+const deleteBtn = document.getElementById("delete-btn")
+
 //Getting the leads from the localStorage using json.parse and storing it in a variable
-let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))//JSON.parse() method parses a JSON string, constructing the JavaScript value or object described by the string.
+const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))//JSON.parse() method parses a JSON string, constructing the JavaScript value or object described by the string.
 
 // Checking if the leads from the localStorage are truthy
 // if yes then set myLeads to its value and then call the renderLeads
@@ -13,6 +16,13 @@ if (leadsFromLocalStorage){
     renderLeads()
 }
 
+// Listening for double clicks on the delete button
+deleteBtn.addEventListener("dblclick", function(){
+    //Clearing localStorage, myLeads, and the DOM after button is clicked double
+    localStorage.clear()//Clear localStorage
+    myLeads =[]// Cleared my leads array after assinging it to an empty array
+    renderLeads()//Calling renderLeads array to clear DOM because it is empty
+})
 
 /*
 The addEventListener() method is used to attach an event handler to a particular element. It does not override the existing event handlers. Events are said to be an essential part of the JavaScript. A web page responds according to the event that occurred.
