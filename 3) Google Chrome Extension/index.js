@@ -16,6 +16,7 @@ if (leadsFromLocalStorage){
     render(myLeads)
 }
 
+
 tabBtn.addEventListener("click", function() {
     //Grabbing the URL of the current tab
 
@@ -27,6 +28,8 @@ tabBtn.addEventListener("click", function() {
    })
     
 })
+
+
 function render(leads){
     //Creating a variable, listItems, to hold all the HTML for the list items and assign it to an empty string to begin with
     let listItems = " "
@@ -62,6 +65,8 @@ Although it has three parameters, the parameters event and function are widely u
 event: It is a required parameter. It can be defined as a string that specifies the event's name.
 function: It is also a required parameter. It is a JavaScript function which responds to the event occur.
 */
+
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""//To clear out the inpit field by assigning it to an empty string
