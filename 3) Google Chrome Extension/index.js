@@ -1,4 +1,5 @@
 let myLeads = []
+let oldLeads = []
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
@@ -13,15 +14,31 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))//JSON.
 // if yes then set myLeads to its value and then call the renderLeads
 if (leadsFromLocalStorage){
     myLeads = leadsFromLocalStorage
-    renderLeads()
+    render(myLeads)
 }
+function render(leads){
+    //Creating a variable, listItems, to hold all the HTML for the list items and assign it to an empty string to begin with
+    let listItems = " "
+    //Logging out the lead values
+    for(let i=0; i<leads.length; i++){
+        listItems += `
+            <li>
+                <a target='_blank' href='${leads[i]}'>
+                    ${leads[i]}
+                </a>
+            </li>
+        `
+    }
+    ulEl.innerHTML = listItems
+}
+
 
 // Listening for double clicks on the delete button
 deleteBtn.addEventListener("dblclick", function(){
     //Clearing localStorage, myLeads, and the DOM after button is clicked double
     localStorage.clear()//Clear localStorage
     myLeads =[]// Cleared my leads array after assinging it to an empty array
-    renderLeads()//Calling renderLeads array to clear DOM because it is empty
+    render(myLeads)//Calling renderLeads array to clear DOM because it is empty
 })
 
 /*
@@ -40,22 +57,5 @@ inputBtn.addEventListener("click", function() {
     //Saving the myLeads array to the localStorage
     localStorage.setItem("myLeads",JSON.stringify(myLeads))//localStorage is a property that allows JavaScript sites and apps to save key-value pairs in a web browser with no expiration date
 
-    renderLeads()
+    render(myLeads)
 })
-
-
-function renderLeads(){
-    //Creating a variable, listItems, to hold all the HTML for the list items and assign it to an empty string to begin with
-    let listItems = " "
-    //Logging out the lead values
-    for(let i=0; i<myLeads.length; i++){
-        listItems += `
-            <li>
-                <a target='_blank' href='${myLeads[i]}'>
-                    ${myLeads[i]}
-                </a>
-            </li>
-        `
-    }
-    ulEl.innerHTML = listItems
-}
