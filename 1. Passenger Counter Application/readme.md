@@ -11,13 +11,12 @@ Can be used as counter for number of people enter at a place or shop or store wi
 ### Concepts Learned In The Project
 
 - Script Tag
-
-* Variables
-* Numbers
-* Strings
-* console.log()
-* Functions
-* DOM basics
-* getElementById
-* innerText
-* textContent
+- Variables
+- Numbers
+- Strings
+- console.log()
+- Functions
+- DOM basics
+- getElementById
+- innerText
+- textContent
