@@ -14,11 +14,4 @@ medium etc.
 
 ## Table Of Contents
 
-\_[Passenger Counter Application](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/1.%20Passenger%20Counter%20Application)
-
-\_[Blackjack Game](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/2.%20Blackjack%20Game)
-
-- _[Google Chrome Extension](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/3.%20Google%20Chrome%20Extension)_
-
-- _[Assignments of Freecodecamp](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/Assignments)_
-  </br>
+- [Passenger Counter Application](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/1.%20Passenger%20Counter%20Application)
