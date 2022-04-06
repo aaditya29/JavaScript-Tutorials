@@ -19,5 +19,6 @@ medium etc.
 \_[Blackjack Game](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/2.%20Blackjack%20Game)
 
 - _[Google Chrome Extension](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/3.%20Google%20Chrome%20Extension)_
+
 - _[Assignments of Freecodecamp](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/Assignments)_
   </br>
