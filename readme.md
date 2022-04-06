@@ -14,4 +14,4 @@ medium etc.
 
 ## Table Of Contents
 
-- [Passenger Counter Application](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/1.%20Passenger%20Counter%20Application)
+- [Passenger Counter Application](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/1.%20Passenger%20Counter%20Application) \*[Blackjack Game](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/2.%20Blackjack%20Game)
