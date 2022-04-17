@@ -1,3 +1,5 @@
+//Getting Elements by Id
+
 /**
  * The getElementById() method is one of the most common methods in the HTML DOM.
  * The getElementById() method returns an element with a specified value. The getElementById() method returns null if the element does not exist. 
