@@ -16,3 +16,10 @@ console.log(search, bookList)
  * This is a live HTMLCollection. Changes in the DOM will reflect in the array as the changes occur. If an element selected by this array no longer qualifies for the selector, it will automatically be removed.
  */
 const titles = document.getElementsByClassName('title')
+
+console.log(Array.isArray(titles))//Checking if the titles is an array
+console.log(Array.isArray(Array.from(titles)))//Making titles an array
+
+Array.from(titles).forEach(function(title){//Turning titles into an array and passing through each function of title
+  console.log(title);//and returning it
+})
