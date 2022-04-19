@@ -61,3 +61,13 @@ Array.from(books).forEach(function(book){
 /** 
  * 
 */
+
+const books = document.querySelectorAll('#book-list li .name')
+
+Array.from(books).forEach(function(book){
+  book.textContent += ' (Book title)'// adding test content
+})
+
+const booksList = document.querySelector('#book-list')// Selecting the booklist query
+booksList.innerHTML = '<h2>Books and more books...</h2>'// returning the heading in the html document as the updated heading
+booksList.innerHTML += '<p>This is how you add HTML content</p>' // returning the paragraph in the html document as the updated paragraph
