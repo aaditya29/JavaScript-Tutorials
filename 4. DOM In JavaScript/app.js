@@ -41,3 +41,16 @@ console.log(wmf)
 
 var books = document.querySelector('#book-list li .name')// getting name tag from li from id=book-list
 console.log(books)
+
+/** querySelectorAll() 
+ * The querySelectorAll() method returns all elements that matches a CSS selector(s).
+ * The querySelectorAll() method returns a NodeList.
+ * The querySelectorAll() method throws a SYNTAX_ERR exception if the selector(s) is invalid
+ */
+
+books = document.querySelectorAll('#book-list li .name')
+console.log(books)
+
+Array.from(books).forEach(function(book){
+  console.log(book)
+})
