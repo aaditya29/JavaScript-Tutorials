@@ -34,3 +34,7 @@ Array.from(titles).forEach(function(title){//Turning titles into an array and pa
  * To return all matches (not only the first), use the querySelectorAll() instead.
  * Both querySelector() and querySelectorAll() throw a SYNTAX_ERR exception if the selector(s) is invalid.
 */
+
+const wmf = document.querySelector('#book-list li:nth-child(2) .name')// Here querySelector is used to select the book The Wise Men's Fear(wmf)
+// querySelector selects the book-list id; second child; and the name span tag
+console.log(wmf);
