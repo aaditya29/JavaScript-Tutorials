@@ -25,3 +25,12 @@ console.log(Array.isArray(Array.from(titles)))//Making titles an array
 Array.from(titles).forEach(function(title){//Turning titles into an array and passing through each function of title
   console.log(title);//and returning it
 })
+
+
+// The Query Selector
+
+/**
+ * The querySelector() method returns the first element that matches a CSS selector.
+ * To return all matches (not only the first), use the querySelectorAll() instead.
+ * Both querySelector() and querySelectorAll() throw a SYNTAX_ERR exception if the selector(s) is invalid.
+*/
