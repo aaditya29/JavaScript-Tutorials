@@ -59,7 +59,7 @@ Array.from(books).forEach(function(book){
 // Changing Text And HTML Contents
 
 /** 
- * 
+ * The innerHTML property sets or returns the HTML content (inner HTML) of an element.
 */
 
 const books = document.querySelectorAll('#book-list li .name')
@@ -71,3 +71,19 @@ Array.from(books).forEach(function(book){
 const booksList = document.querySelector('#book-list')// Selecting the booklist query
 booksList.innerHTML = '<h2>Books and more books...</h2>'// returning the heading in the html document as the updated heading
 booksList.innerHTML += '<p>This is how you add HTML content</p>' // returning the paragraph in the html document as the updated paragraph
+
+// NODE in DOM 
+
+/**
+ * Adding and Removing Nodes (HTML Elements)
+ * To add a new element to the HTML DOM, you must create the element (element node) first, and then append it to an existing element.
+ */
+
+const banner = document.querySelector('#page-banner')//selecting the id pagebanner
+
+console.log('#page-banner node type is:', banner.nodeType)//returns the type of the node
+console.log('#page-banner node name is:', banner.nodeName)// returns the name of the node
+console.log('#page-banner has child nodes:', banner.hasChildNodes())//The hasChildNodes() method returns true if the specified node has any child nodes, otherwise false.
+
+const clonedBanner = banner.cloneNode(true)// The cloneNode() method creates a copy of a node, and returns the clone.
+console.log(clonedBanner)
