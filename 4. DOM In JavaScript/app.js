@@ -5,8 +5,8 @@
  * The getElementById() method returns an element with a specified value. The getElementById() method returns null if the element does not exist. 
  * It is used almost every time you want to read or edit an HTML element.  
 */  
-const search = document.getElementById('search-books');
-const bookList = document.getElementById('book-list');
+const search = document.getElementById('search-books')
+const bookList = document.getElementById('book-list')
 
 console.log(search, bookList)
 
@@ -37,4 +37,7 @@ Array.from(titles).forEach(function(title){//Turning titles into an array and pa
 
 const wmf = document.querySelector('#book-list li:nth-child(2) .name')// Here querySelector is used to select the book The Wise Men's Fear(wmf)
 // querySelector selects the book-list id; second child; and the name span tag
-console.log(wmf);
+console.log(wmf)
+
+var books = document.querySelector('#book-list li .name')// getting name tag from li from id=book-list
+console.log(books)
