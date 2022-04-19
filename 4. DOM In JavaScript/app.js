@@ -54,3 +54,10 @@ console.log(books)
 Array.from(books).forEach(function(book){
   console.log(book)
 })
+
+
+// Changing Text And HTML Contents
+
+/** 
+ * 
+*/
