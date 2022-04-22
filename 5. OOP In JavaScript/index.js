@@ -25,3 +25,15 @@ circle.draw();// calling the draw method
  * If you need to create many objects, you’ll want to combine the power of object literals and factory functions.
  * With a factory function, you can create as many user objects as you want. If you’re building a chat app, for instance, you can have a user object representing the current user, and also a lot of other user objects representing all the other users who are currently signed in and chatting, so you can display their names and avatars, too.
  */
+
+//Factory Function
+function createCircle(radius){
+    return{
+        radius,
+        draw: function(){
+            console.log('draw');
+        }
+    }
+}
+
+const circle1 = createCircle(1)//calling createCircle factory function
