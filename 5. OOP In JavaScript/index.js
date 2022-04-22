@@ -16,3 +16,9 @@ const circle = {
     }
 };// curly brackets refers to objects literals syntax
 circle.draw();// calling the draw method
+
+// Factories in JavaScript
+
+/**
+ * 
+ */
