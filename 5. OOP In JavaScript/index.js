@@ -44,6 +44,20 @@ const circle1 = createCircle(1)//calling createCircle factory function
 /**
  * The constructor method is a special method of a class for creating and initializing an object instance of that class.
  * A constructor enables you to provide any custom initialization that must be done before any other methods can be called on an instantiated object.
- * 
+ * First letter should be upper case for the constructor.
  */
 
+function Circle(radius){
+    this.radius = radius;//the this keyword refers to an object.
+    /**
+     * In an object method, this refers to the object.
+     * Alone, 'this' refers to the global object.
+     * In a function, 'this' refers to the global object.
+     * In a function, in strict mode, 'this' is undefined.
+     */
+
+    this.draw = function(){
+        console.log('draw')
+    };
+}
+const another = new Circle(1);//The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
