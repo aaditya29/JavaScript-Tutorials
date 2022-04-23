@@ -23,3 +23,5 @@ medium etc.
 * [Assignments of FreeCodeCamp](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/Assignments)
 
 * [DOM In JavaScript](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/4.%20DOM%20In%20JavaScript)
+
+* [OOP In JavaScript](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/5.%20OOP%20In%20JavaScript)
