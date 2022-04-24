@@ -21,6 +21,6 @@ one();
 two();
 ```
 
-<b>Output:</b>
-Step 1
+<b>Output:</b> <br>
+Step 1<br>
 Step 2
