@@ -42,5 +42,5 @@ one(two)//In function one we are passing function two.
 ```
 
 <b>Output:</b><br>
-step 1 complete. Now call step 2. Now call step 2.<br>
+step 1 complete. Now call step 2.<br>
 step 2
