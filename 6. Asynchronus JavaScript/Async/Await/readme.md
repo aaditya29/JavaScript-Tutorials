@@ -40,6 +40,6 @@ console.log(2);
 
 #### Output:
 
-1
-2
-Hello World
+1<br>
+2<br>
+Hello World<br>
