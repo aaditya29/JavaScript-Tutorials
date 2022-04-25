@@ -25,3 +25,5 @@ medium etc.
 * [DOM In JavaScript](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/4.%20DOM%20In%20JavaScript)
 
 * [OOP In JavaScript](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/5.%20OOP%20In%20JavaScript)
+
+* [Asynchronous JavaScript](https://github.com/aaditya29/JavaScript-Tutorials/tree/master/6.%20Asynchronus%20JavaScript)
