@@ -7,13 +7,13 @@
  */
 
 // Relation b/w time and work
+
 let stocks = {
     Fruits : ["strawberry", "grapes", "banana", "apple"],
     liquid : ["water", "ice"],
     holder : ["cone", "cup", "stick"],
     toppings : ["chocolate", "peanuts"],
  };
-
 let is_shop_open = true;// Asking question if shop is opened or not. If true then serve, else don't serve
 
 let order = ( time, work ) =>{
