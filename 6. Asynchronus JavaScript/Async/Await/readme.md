@@ -43,3 +43,5 @@ console.log(2);
 1<br>
 2<br>
 Hello World<br>
+
+Notice that the console prints 2 before the “Hello World”. This is due to the usage of the await keyword.
