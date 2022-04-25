@@ -5,9 +5,29 @@ let stocks = {
     holder : ["cone", "cup", "stick"],
     toppings : ["chocolate", "peanuts"],
  };
- 
+
 let is_shop_open = true;
 
+/** We are going to create two different functions
+ * kitchen: to make ice cream
+ * time: to assign the amount of time each small task will take.
+ */
+
+function time(ms) {
+
+   return new Promise( (resolve, reject) => {
+
+      if(is_shop_open){
+         setTimeout(resolve,ms);//setting relation between time and work
+      }
+
+      else{
+         reject(console.log("Shop is closed"))
+      }
+    });
+}
+
+// Creating kitchen function
 async function kitchen(){
     //We use the try keyword to run our code while we use catch to catch our errors.
     try{
